@@ -13,6 +13,8 @@
 		206E65652820033D00BC4921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206E65632820033D00BC4921 /* Main.storyboard */; };
 		206E65672820033F00BC4921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206E65662820033F00BC4921 /* Assets.xcassets */; };
 		206E656A2820033F00BC4921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206E65682820033F00BC4921 /* LaunchScreen.storyboard */; };
+		206E6572282010B000BC4921 /* HoursTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6571282010B000BC4921 /* HoursTableViewController.swift */; };
+		206E65742820427F00BC4921 /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E65732820427F00BC4921 /* Hour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		206E65662820033F00BC4921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206E65692820033F00BC4921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		206E656B2820033F00BC4921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206E6571282010B000BC4921 /* HoursTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursTableViewController.swift; sourceTree = "<group>"; };
+		206E65732820427F00BC4921 /* Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				206E655D2820033D00BC4921 /* AppDelegate.swift */,
 				206E655F2820033D00BC4921 /* SceneDelegate.swift */,
 				206E65612820033D00BC4921 /* ViewController.swift */,
+				206E65732820427F00BC4921 /* Hour.swift */,
+				206E6571282010B000BC4921 /* HoursTableViewController.swift */,
 				206E65632820033D00BC4921 /* Main.storyboard */,
 				206E65662820033F00BC4921 /* Assets.xcassets */,
 				206E65682820033F00BC4921 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				206E65622820033D00BC4921 /* ViewController.swift in Sources */,
+				206E65742820427F00BC4921 /* Hour.swift in Sources */,
+				206E6572282010B000BC4921 /* HoursTableViewController.swift in Sources */,
 				206E655E2820033D00BC4921 /* AppDelegate.swift in Sources */,
 				206E65602820033D00BC4921 /* SceneDelegate.swift in Sources */,
 			);
